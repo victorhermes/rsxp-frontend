@@ -6,7 +6,7 @@ function Header() {
     <Container>
       <ul>
         <li>
-          <a href="http">Gráficos</a>
+          <a href="/dashboard">Gráficos</a>
           <a href="http">Configurações</a>
           <a href="http">Relatórios</a>
           <a href="http">Observações</a>
