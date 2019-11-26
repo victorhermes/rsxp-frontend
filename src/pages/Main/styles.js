@@ -11,8 +11,9 @@ export const Container = styled.div`
   h1 {
     color: #ffff;
     margin-bottom: 50px;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 100;
+    text-align: center;
   }
 
   form {

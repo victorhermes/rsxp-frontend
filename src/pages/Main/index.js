@@ -7,18 +7,19 @@ export default class Main extends Component {
   state = {
     question: "",
     text: "",
-    questionNumber: 0
+    questionNumber: 1
   };
 
   handleSubmit = async e => {
     e.preventDefault();
-    const counter = this.state.questionNumber + 1;
     const response = await api.post("/message", {
       text: this.state.text,
       counter: this.state.questionNumber
     });
+    const counter = this.state.questionNumber + 1;
     this.setState({ question: response.data.message });
     this.setState({ questionNumber: counter });
+    this.setState({ text: "" });
   };
 
   handleAnswerChange = e => {
