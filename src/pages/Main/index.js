@@ -44,6 +44,16 @@ export default class Main extends Component {
 
           <button>Enviar</button>
         </form>
+
+        <div>
+          <h2>Perguntas recomendadas</h2>
+          <ul>
+            <li>
+              <a href="http">Quanto ganha um programador?</a>
+              <a href="http">É possível trabalhar de casa como programador?</a>
+            </li>
+          </ul>
+        </div>
       </Container>
     );
   }

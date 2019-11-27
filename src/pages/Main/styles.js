@@ -42,4 +42,31 @@ export const Container = styled.div`
       text-transform: uppercase;
     }
   }
+
+  div {
+    margin-top: 30px;
+    width: 500px;
+
+    h2 {
+      color: #ffffff;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    ul li {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+    }
+
+    ul li a {
+      display: flex;
+      color: #ffffff;
+      font-size: 15px;
+      border: 1px solid #fff;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 50px;
+    }
+  }
 `;
