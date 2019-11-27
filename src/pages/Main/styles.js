@@ -7,11 +7,12 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 
   h1 {
     color: #ffff;
     margin-bottom: 50px;
-    font-size: 50px;
+    font-size: 34px;
     font-weight: 100;
     text-align: center;
   }
