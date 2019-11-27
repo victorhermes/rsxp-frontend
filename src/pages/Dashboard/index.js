@@ -8,7 +8,13 @@ function Dashboard() {
   return (
     <Container>
       <Header />
+      
       <AllCharts>
+      <select>
+          <option value="Filtro por idade">Filtro por idade</option>
+          <option value="Filtro por nicho">Filtro por nicho</option>
+          <option value="Filtro por habilidades">Filtro por habilidades</option>
+      </select>
         <Chart width={500} height={300} data={data} scale={cols}>
           <Axis name="genre" title />
           <Axis name="sold" title />
